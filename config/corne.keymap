@@ -71,26 +71,26 @@
         compatible = "zmk,keymap";
 
         base {
- // -----------------------------------------------------------------------------------------
- // |  ESC |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | PIPE |
- // | COPY |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
- // | PSTE |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | DEL  |
- //                    | SHFT| TAB | SPC |   | ENT | BKSP | SHFT|
+            // -----------------------------------------------------------------------------------------
+            // |  ESC |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | PIPE |
+            // | COPY |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
+            // | PSTE |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | DEL  |
+            //                    | SHFT| TAB | SPC |   | ENT | BKSP | SHFT|
 
             bindings = <
 &kp ESC      &kp Q  &kp W               &kp E           &kp R           &kp T        &kp Y    &kp U            &kp I           &kp O               &kp P     &kp BSLH
-&kp K_COPY   &kp A  &mt LEFT_CONTROL A  &mt LEFT_GUI D  &mt LEFT_ALT F  &kp G        &kp H    &mt LEFT_ALT J   &mt LEFT_GUI K  &mt LEFT_CONTROL L  &kp SEMI  &kp SQT
+&kp K_COPY   &kp A  &mt LEFT_CONTROL S  &mt LEFT_GUI D  &mt LEFT_ALT F  &kp G        &kp H    &mt LEFT_ALT J   &mt LEFT_GUI K  &mt LEFT_CONTROL L  &kp SEMI  &kp SQT
 &kp K_PASTE  &kp Z  &kp X               &kp C           &kp V           &kp B        &kp N    &kp M            &kp COMMA       &kp DOT             &kp FSLH  &kp DEL
                                         &kp LSHFT       &lt 1 TAB       &kp SPACE    &kp RET  &lt 2 BACKSPACE  &kp LSHFT
             >;
         };
 
         prime {
- // -----------------------------------------------------------------------------------------
- // |      |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | MINUS|
- // |      |  %  |  ^  |  &  |  *  |     |   |     |  4  |  5  |  6  | GRV | EQUAL|
- // |      |     |     |     |     |     |   |  0  |  1  |  2  |  3  |     |  DOT |
- //                    | SHFT| TAB | SPC |   | ENT | BKSP| SHFT|
+            // -----------------------------------------------------------------------------------------
+            // |      |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | MINUS|
+            // |      |  %  |  ^  |  &  |  *  |     |   |     |  4  |  5  |  6  | GRV | EQUAL|
+            // |      |     |     |     |     |     |   |  0  |  1  |  2  |  3  |     |  DOT |
+            //                    | SHFT| TAB | SPC |   | ENT | BKSP| SHFT|
 
             bindings = <
 &trans      &kp N1       &kp N2                  &kp N3                  &kp N4                 &kp N5    &kp N6           &kp N7                    &kp N8                    &kp N9                        &kp N0     &kp MINUS
@@ -101,11 +101,11 @@
         };
 
         second {
- // -----------------------------------------------------------------------------------------
- // | UNDO | F12 |  F7 |  F8 |  F9 | VOL+|   | PGUP|     |     |     | PTSC|      |
- // | COPY | F11 |  F4 |  F5 |  F6 | VOL-|   | LFT |  DN |  UP | RGT |     |      |
- // | PSTE | F10 |  F1 |  F2 |  F3 | MUTE|   | PGDN| PRV | NXT | P/P | MENU| INS  |
- //                    | SHFT| TAB | SPC |   | ENT | BKSP| SHFT|
+            // -----------------------------------------------------------------------------------------
+            // | UNDO | F12 |  F7 |  F8 |  F9 | VOL+|   | PGUP|     |     |     | PTSC|      |
+            // | COPY | F11 |  F4 |  F5 |  F6 | VOL-|   | LFT |  DN |  UP | RGT |     |      |
+            // | PSTE | F10 |  F1 |  F2 |  F3 | MUTE|   | PGDN| PRV | NXT | P/P | MENU| INS  |
+            //                    | SHFT| TAB | SPC |   | ENT | BKSP| SHFT|
 
             bindings = <
 &kp K_UNDO  &kp F12  &kp F7               &kp F8           &kp F9           &kp C_VOLUME_UP      &kp PG_UP  &trans             &trans           &trans                  &kp PRINTSCREEN    &trans
