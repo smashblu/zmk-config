@@ -93,10 +93,10 @@
             //                    | SHFT| TAB | SPC |   | ENT | BKSP| SHFT|
 
             bindings = <
-&trans      &kp N1       &kp N2                  &kp N3                  &kp N4                 &kp N5    &kp N6           &kp N7                    &kp N8                    &kp N9                        &kp N0     &kp MINUS
-&trans      &kp PERCENT  &mt LEFT_CONTROL CARET  &mt LEFT_GUI AMPERSAND  &mt LEFT_ALT ASTERISK  &trans    &trans           &mt LEFT_ALT KP_NUMBER_4  &mt LEFT_GUI KP_NUMBER_5  &mt LEFT_CONTROL KP_NUMBER_6  &kp GRAVE  &kp EQUAL
-&bt BT_CLR  &bt BT_PRV   &bt BT_NXT              &trans                  &trans                 &trans    &kp KP_NUMBER_0  &kp KP_NUMBER_1           &kp KP_NUMBER_2           &kp KP_NUMBER_3               &trans     &kp KP_DOT
-                                                 &trans                  &trans                 &trans    &trans           &trans                    &trans
+&trans      &kp N1       &kp N2                  &kp N3                  &kp N4                 &kp N5    &kp N6        &kp N7                 &kp N8                 &kp N9                     &kp N0     &kp MINUS
+&trans      &kp PERCENT  &mt LEFT_CONTROL CARET  &mt LEFT_GUI AMPERSAND  &mt LEFT_ALT ASTERISK  &trans    &trans        &mt LEFT_ALT NUMBER_4  &mt LEFT_GUI NUMBER_5  &mt LEFT_CONTROL NUMBER_6  &kp GRAVE  &kp EQUAL
+&bt BT_CLR  &bt BT_PRV   &bt BT_NXT              &trans                  &trans                 &trans    &kp NUMBER_0  &kp NUMBER_1           &kp NUMBER_2           &kp NUMBER_3               &trans     &kp KP_DOT
+                                                 &trans                  &trans                 &trans    &trans        &trans                 &trans
             >;
         };
 
